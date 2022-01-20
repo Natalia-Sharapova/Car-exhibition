@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B00D6BB2791D73C00CEC9FD /* SelectAdditionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00D6BA2791D73C00CEC9FD /* SelectAdditionTableViewController.swift */; };
+		9B08F72E27976219009033F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B08F72D27976219009033F9 /* MainViewController.swift */; };
 		9B625904278F5F390061002E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B625903278F5F390061002E /* AppDelegate.swift */; };
 		9B625906278F5F390061002E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B625905278F5F390061002E /* SceneDelegate.swift */; };
-		9B625908278F5F390061002E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B625907278F5F390061002E /* ViewController.swift */; };
 		9B62590B278F5F390061002E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B625909278F5F390061002E /* Main.storyboard */; };
 		9B62590D278F5F390061002E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B62590C278F5F390061002E /* Assets.xcassets */; };
 		9B625910278F5F390061002E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B62590E278F5F390061002E /* LaunchScreen.storyboard */; };
+		9B625918278F630A0061002E /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B625917278F630A0061002E /* AddRegistrationTableViewController.swift */; };
+		9B62591A278F6B680061002E /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B625919278F6B680061002E /* Registration.swift */; };
+		9B62591C278F70220061002E /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B62591B278F70220061002E /* Addition.swift */; };
+		9B6FBA3927946C4400B721FF /* ListOfCarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FBA3827946C4400B721FF /* ListOfCarsTableViewController.swift */; };
+		9B85576627934081008A1A1A /* SelectAdditionTableViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B85576527934081008A1A1A /* SelectAdditionTableViewControllerProtocol.swift */; };
+		9BF818E32795FB750018F608 /* CellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF818E22795FB750018F608 /* CellManager.swift */; };
+		9BF818E52795FCA00018F608 /* RegistrationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF818E42795FCA00018F608 /* RegistrationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B00D6BA2791D73C00CEC9FD /* SelectAdditionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAdditionTableViewController.swift; sourceTree = "<group>"; };
+		9B08F72D27976219009033F9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9B625900278F5F390061002E /* Car exhibition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car exhibition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B625903278F5F390061002E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B625905278F5F390061002E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B625907278F5F390061002E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B62590A278F5F390061002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B62590C278F5F390061002E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B62590F278F5F390061002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B625911278F5F390061002E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B625917278F630A0061002E /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		9B625919278F6B680061002E /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		9B62591B278F70220061002E /* Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
+		9B6FBA3827946C4400B721FF /* ListOfCarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCarsTableViewController.swift; sourceTree = "<group>"; };
+		9B85576527934081008A1A1A /* SelectAdditionTableViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAdditionTableViewControllerProtocol.swift; sourceTree = "<group>"; };
+		9BF818E22795FB750018F608 /* CellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellManager.swift; sourceTree = "<group>"; };
+		9BF818E42795FCA00018F608 /* RegistrationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,71 @@
 		9B625902278F5F390061002E /* Car exhibition */ = {
 			isa = PBXGroup;
 			children = (
-				9B625903278F5F390061002E /* AppDelegate.swift */,
-				9B625905278F5F390061002E /* SceneDelegate.swift */,
-				9B625907278F5F390061002E /* ViewController.swift */,
-				9B625909278F5F390061002E /* Main.storyboard */,
+				9BF818E72796001C0018F608 /* Protocols */,
+				9BF818E6279600060018F608 /* Managers */,
+				9BF996D62790AC6700302E21 /* App */,
 				9B62590C278F5F390061002E /* Assets.xcassets */,
-				9B62590E278F5F390061002E /* LaunchScreen.storyboard */,
+				9BF996D52790AC5500302E21 /* Controllers */,
 				9B625911278F5F390061002E /* Info.plist */,
+				9BF996D42790AC4500302E21 /* Models */,
+				9BF996D72790AD0600302E21 /* Views */,
 			);
 			path = "Car exhibition";
+			sourceTree = "<group>";
+		};
+		9BF818E6279600060018F608 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9BF818E22795FB750018F608 /* CellManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9BF818E72796001C0018F608 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9B85576527934081008A1A1A /* SelectAdditionTableViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9BF996D42790AC4500302E21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B625919278F6B680061002E /* Registration.swift */,
+				9B62591B278F70220061002E /* Addition.swift */,
+				9BF818E42795FCA00018F608 /* RegistrationCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BF996D52790AC5500302E21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B625917278F630A0061002E /* AddRegistrationTableViewController.swift */,
+				9B00D6BA2791D73C00CEC9FD /* SelectAdditionTableViewController.swift */,
+				9B6FBA3827946C4400B721FF /* ListOfCarsTableViewController.swift */,
+				9B08F72D27976219009033F9 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9BF996D62790AC6700302E21 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9B625903278F5F390061002E /* AppDelegate.swift */,
+				9B625905278F5F390061002E /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9BF996D72790AD0600302E21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B625909278F5F390061002E /* Main.storyboard */,
+				9B62590E278F5F390061002E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B625908278F5F390061002E /* ViewController.swift in Sources */,
+				9B62591A278F6B680061002E /* Registration.swift in Sources */,
+				9B08F72E27976219009033F9 /* MainViewController.swift in Sources */,
+				9BF818E32795FB750018F608 /* CellManager.swift in Sources */,
+				9B625918278F630A0061002E /* AddRegistrationTableViewController.swift in Sources */,
 				9B625904278F5F390061002E /* AppDelegate.swift in Sources */,
+				9BF818E52795FCA00018F608 /* RegistrationCell.swift in Sources */,
 				9B625906278F5F390061002E /* SceneDelegate.swift in Sources */,
+				9B85576627934081008A1A1A /* SelectAdditionTableViewControllerProtocol.swift in Sources */,
+				9B62591C278F70220061002E /* Addition.swift in Sources */,
+				9B00D6BB2791D73C00CEC9FD /* SelectAdditionTableViewController.swift in Sources */,
+				9B6FBA3927946C4400B721FF /* ListOfCarsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
