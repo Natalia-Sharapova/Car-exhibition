@@ -54,6 +54,7 @@ extension ListOfCarsTableViewController /*: UITableViewDataSource */ {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let registration = registrations[indexPath.row]
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "RegistrationCell")! as! RegistrationCell
         
         //Assigning the data from the Registration to all labels

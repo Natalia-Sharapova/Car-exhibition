@@ -13,8 +13,6 @@ class CellManager {
         
         cell.brandLabel.text = registration.brand
         cell.modelLabel.text = registration.model
-        cell.imageView?.image = registration.image
-        
-        cell.imageView?.clipsToBounds = true
+        cell.imageCar.image = registration.image
     }
 }
